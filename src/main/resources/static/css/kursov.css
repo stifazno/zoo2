@@ -1,0 +1,647 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    
+    margin: 0;
+    background-color: white;
+}
+main{
+    overflow: hidden;
+    
+}
+
+header {
+    position:sticky;
+    top: 0;
+    z-index: 30;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.nav {
+    
+    display: flex;  
+    height: 50px;
+    align-items:start;
+}
+
+
+.nav img{
+    max-width: 90px;
+}
+
+
+.navLi {
+    list-style: none;
+    display: flex;
+}
+
+.navLi a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navLi li {
+    height: 50px;
+    font-size: 24px;
+    margin: 10px 20px 10px 20px;
+    cursor: pointer;
+    transition: transform 0.4s ease-in-out;
+}
+
+.navLi li:hover {
+    transform: scale(1.1);
+}
+
+
+/* sdaaaaaaaaaaaaaaaaaaaaaaaaafasdddddddddddddddd */
+
+.li {
+    display: flex;
+}
+
+.li1 {
+    align-items: center; /* дополнительный стиль для .li1 */
+}
+
+/* sdaaaaaaaaaaaaaaaaaaaaaaaaafasdddddddddddddddd */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.burger-button{
+    display: none;
+}
+
+
+
+.backgroundImage {
+    display: block;
+}
+
+
+.imageTextContainer{
+    overflow: hidden;
+    position: relative;
+}
+.textOnImage {
+    overflow: hidden;
+    position: absolute; /* Абсолютное позиционирование */
+    top: 40%; /* Положение сверху, например, 50% от верхней границы родителя */
+    left: 6%; /* Положение слева, например, 50% от левой границы родителя */
+    color: white; /* Цвет текста */
+    width: 950px;
+}
+
+.zag{
+    font-size: 80px;
+    font-weight:200;
+}
+
+.collection{
+    margin-top: 20px;
+    font-size: 38px;
+    font-weight:100;
+}
+
+
+
+
+
+
+
+.cardsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.cardsContainer a
+{
+    text-decoration: none;
+}
+.product-card {
+    width: 380px;
+    position: relative;
+    
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 50px auto;
+    background: #fafafa;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.badge {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    background: red;
+    color: #fff;
+    padding: 3px 10px;
+}
+
+.product-tumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 360px; */
+    padding: 50px;
+    background: #f0f0f0;   
+}
+
+.product-tumb img {
+    object-fit: cover;
+}
+
+.product-details {
+    padding: 30px;
+}
+
+.product-catagory {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ccc;
+    margin-bottom: 18px;
+}
+
+.product-details h4 a {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    color: #363636;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.product-details h4 a:hover {
+    color: #fbb72c;
+}
+
+.product-details p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 18px;
+    color: #999;
+}
+
+.product-bottom-details {
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.product-bottom-details div {
+    float: left;
+    width: 50%;
+}
+
+.product-price {
+    font-size: 18px;
+    color: #fbb72c;
+    font-weight: 600;
+}
+
+.product-price small {
+    font-size: 80%;
+    font-weight: 400;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.product-links {
+    text-align: right;
+}
+
+.product-links a {
+    display: inline-block;
+    margin-left: 5px;
+    color: #e1e1e1;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.product-links a:hover {
+    color: #fbb72c;
+}
+
+.product-card:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+/* каталог автомобилей */
+.catalogContainer{
+    position: relative;
+    top: auto;
+    display: flex;
+    justify-content: center;
+}
+.textCat::before
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: calc(30% - 40px);
+    height: 1px; /* Высота линии */
+    background-color: #0b0b0b; /* Цвет линии */
+}
+
+.textCat::after
+{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: calc(30% - 40px);
+    height: 1px; /* Высота линии */
+    background-color: #0b0b0b; /* Цвет линии */
+}
+
+
+.catalogCars{
+    position: relative;
+    top: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgba(248, 7, 7, 0);
+}
+
+.car{
+    padding: 10px;
+    font-size: 26px;
+    margin-left: 80px;
+    /* border: 1px solid; */
+}
+
+
+
+
+
+/* Наши приемущества */
+.wearea{
+    text-align: center; /* Центрируем текст внутри секции */
+    background-color: #F2F9FC;;
+}
+
+.Wearea h1 {
+    margin-bottom: 20px; /* Дополнительный отступ снизу для разделения заголовка и сетки */
+}
+
+.WhyUs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Создаем 4 колонки */
+    gap: 20px; /* Добавляем промежутки между колонками и строками */ 
+}
+
+.WhyUs div {
+    padding: 20px;
+    border: none #ccc; /* Просто для визуализации границ элементов */
+}
+.WhyUs img{
+    width: 126px;
+    height: 162px;
+}
+.my-svg {
+    width: 200px; /* желаемая ширина */
+    height: 200px; /* желаемая высота */
+}
+.elementor-icon-box-title{
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Стили для мобильных устройств */
+@media only screen and (max-width: 908px) {
+    .burger-button {
+        display: block;
+        font-size: 24px;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .nav {
+        display: none;
+        flex-direction: column;
+        background-color: #fff;
+        position: absolute;
+        top: 50px;
+        right: 0px;
+    }
+    header{
+        position: static;
+    }
+
+    .li1{
+        display: none;
+    }
+    .nav.show {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-radius: 10px;
+        z-index: 50;
+    }
+
+    .nav .navLi{
+        width: 100%;
+        flex-direction: column;
+    }
+    .nav .navLi li{
+        padding: 10px;
+    }
+}
+
+
+
+
+
+@media (max-width: 520px){
+    .textOnImage {
+        top: 20%; /* Положение сверху, например, 50% от верхней границы родителя */
+        left: 6%; /* Положение слева, например, 50% от левой границы родителя */
+        color: white; /* Цвет текста */
+        width: 300px;
+    }
+    
+    .zag{
+        font-size: 30px;
+        font-weight:200;
+    }
+
+    .collection{
+        margin-top: 20px;
+        font-size: 19px;
+        font-weight:100;
+    } 
+}
+
+@media (max-width: 320px){
+    .textOnImage {
+        top: 20%; /* Положение сверху, например, 50% от верхней границы родителя */
+        left: 6%; /* Положение слева, например, 50% от левой границы родителя */
+        color: white; /* Цвет текста */
+        width: 200px;
+    }
+    
+    .zag{
+        font-size: 15px;
+        font-weight:200;
+    }
+
+    .collection{
+        margin-top: 20px;
+        font-size: 19px;
+        font-weight:100;
+    } 
+}
+@media (min-width:521px) and (max-width: 980px){
+    
+    .textOnImage {
+        top: 20%; /* Положение сверху, например, 50% от верхней границы родителя */
+        left: 6%; /* Положение слева, например, 50% от левой границы родителя */
+        color: white; /* Цвет текста */
+        width: 300px;
+    }
+    
+    .zag{
+        font-size: 30px;
+        font-weight:200;
+    }
+    
+    .collection{
+        margin-top: 20px;
+        font-size: 19px;
+        font-weight:100;
+    }
+    
+}
+@media only screen and (min-width: 980px) and (max-width: 1600px){
+
+
+
+}
+
+
+
+
+
+
+/* для карточек */
+
+@media (max-width:1270px){
+
+    .cardsContainer{
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+
+@media (max-width:1050px){
+
+    .WhyUs {
+        grid-template-columns: repeat(4 1fr); /* Создаем 4 колонки */
+        gap: 10px; 
+    }
+    .elementor-icon-box-title{
+        font-size: 18px;
+    }
+    .WhyUs div {
+        padding: 5px;
+    }
+    .my-svg {
+        width: 150px; /* желаемая ширина */
+        height: 150px; /* желаемая высота */
+    }
+}
+
+
+@media (max-width:842px){
+    .cardsContainer{
+        grid-template-columns: 1fr ;
+    }
+    .catalogCars{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .car {
+        padding: 5px;
+        font-size: 15px;
+        margin-left: 40px;
+    }
+    .WhyUs {
+        grid-template-columns: repeat(2, 1fr); /* Создаем 4 колонки */
+        gap: 10px; 
+    }
+    
+}
+@media (max-width:436px){
+
+    .elementor-icon-box-title{
+        font-size: 14px;
+    }
+    .WhyUs div {
+        padding: 5px;
+        border: none #ccc; /* Просто для визуализации границ элементов */
+    }
+    .my-svg {
+        width: 100px; /* желаемая ширина */
+        height: 100px; /* желаемая высота */
+    }
+    .product-card{
+        
+        width: 340px;
+    }
+}
+
+
+
+
+
+#name{
+    display: flex;
+    justify-content: center;
+    height: 4em;
+    align-items: end;
+    color: rgba(0, 212, 255, 0.9);
+}
+
+
+
+
+body{
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.containner{
+  max-width: 1170px;
+  margin:auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+
+.footer{
+    background-color: #ffffff;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: rgba(0, 212, 255, 0.9);
+  
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: rgba(0, 212, 255, 0.9);
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  
+  color: rgba(0, 212, 255, 0.9);
+  text-decoration: none;
+  font-weight: 300;
+  color: rgba(0, 212, 255, 0.9);
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: rgba(0, 212, 255, 0.9);
+  padding-left: 8px;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: rgba(0, 212, 255, 0.9);
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+  color: #fafafa;
+  background-color: rgba(0, 212, 255, 0.9);
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+

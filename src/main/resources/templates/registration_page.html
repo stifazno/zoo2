@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet"  href="/css/kursov.css">
+    <link rel="stylesheet"  href="/css/reg.css">
+
+<body>
+<header>
+    <!-- Бургер кнопка -->
+    <button class="burger-button" onclick="toggleNav()">☰</button>
+
+    <nav class="nav">
+        <ul class="navLi">
+            <li class="li li1"><a href="kursov" target="_self"><img src="/css/pictures/img2/logo.png"></a></li>
+            <li class="li li2"><a href="menu" target="_self">Наши товары</a></li>
+            <li class="li li2"><a href="cart" target="_self">Корзина</a></li>
+            <li class="li li4"><a href="garant">Гарантия</a></li>
+            <li class="li li5"><a href = "registration_page">Зарегистрироваться</a></li>
+            <li class="li li5"><a href = "login">Войти</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="testbox">
+    <h1>Регистрация</h1>
+    <form id="registration" class="reg_form">
+        <input type="text" name="email" id="email" placeholder="Email" required/>
+        <input type="text" name="name" id="name" placeholder="Name" required/>
+        <input type="password" name="password" id="password" placeholder="Password" required/>
+        <button id="reg_button" type="submit" class="btn-0">Зарегистрироваться</button>
+    </form>
+    <script src="/js/reg_form.js"></script>
+</div>
+
+
+</body>
+</html>

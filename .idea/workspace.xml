@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="589b9179-27ae-4118-8934-291faf22bb10" name="Changes" comment="Add order-feature">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cafe/controllers/garantController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/cafe/controllers/kursovController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/garant.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/kursov.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/icons/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/icons/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/icons/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/icons/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/icons/favicon-114x114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/icons/favicon-120x120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/icons/favicon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/icons/favicon-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/icons/favicon-152x152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/icons/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/icons/favicon-180x180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/icons/favicon-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/icons/favicon-310x310.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/icons/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/icons/favicon-57x57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/icons/favicon-60x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/icons/favicon-70x70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/icons/favicon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/icons/favicon-76x76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/icons/favicon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/icons/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/icons/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/icons/safari-pinned-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/icons/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/BMW.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/BMW3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/BMW4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/BMWfilt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/BackGround.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/BackGroundDo520.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/BackGroundDo980.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/FerrariBlack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/FordMustangg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/NissanGTR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/PorsheYellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/RolsRoys.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/audiBlack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/audiRed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/bacGroundMonic.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/background1920.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/bentley.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/bugati.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/bugati2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/card4-transformed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/card5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/card51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/card5_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/card6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/card7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/card7_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/card8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/card8_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/chevrolet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/ferari.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/jaguar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/lamba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/lamba3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/lamba4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/ls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/mers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/mers2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/porshe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/tesla.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/wild.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img/ифсо.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img2/AudiA7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img2/BentleyGT.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img2/BmwF30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img2/BmwM6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img2/BugattiChiron.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img2/Chevrolet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img2/JaguarF.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img2/LamborginiRed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img2/LamborginiYellow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img2/McLaren.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img2/Mercedes-Benz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img2/NissanGTR.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img2/Porshe911.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img2/PorsheYellow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img2/RollsRoyce.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img2/ShelbyMustang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img2/TeslaS.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img2/audiA5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img2/audiA6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img2/back.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img2/bugati.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img2/favikonka.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/pictures/img2/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/kursov.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/garant.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/kursov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/cafe/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/cafe/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/cart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/reg.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/reg.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration_page.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2e5NAIJWvcKS6fYYUvV2HGPkxyZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.Build MorningBuzzCafe.executor": "Run",
+    "Gradle.MorningBuzzCafe [:Main.main()].executor": "Run",
+    "Gradle.Tests in 'MorningBuzzCafe'.executor": "Coverage",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Новая папка (3)/zooShop",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kirill\IdeaProjects\MorningBuzzCafe\src\main\resources\static\css\pictures" />
+      <recent name="C:\Users\Kirill\IdeaProjects\MorningBuzzCafe\src\main\resources\static\css" />
+      <recent name="C:\Users\Kirill\IdeaProjects\MorningBuzzCafe\src\main\resources" />
+      <recent name="C:\Users\Kirill\IdeaProjects\MorningBuzzCafe\src\main\resources\templates" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.example.cafe.repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.cafe.Main" />
+      <module name="MorningBuzzCafe.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.cafe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests in 'MorningBuzzCafe'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'MorningBuzzCafe'" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="589b9179-27ae-4118-8934-291faf22bb10" name="Changes" comment="" />
+      <created>1711190335513</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711190335513</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1711194143641</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711194143641</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added 1 part of home page + controller for menu">
+      <option name="closed" value="true" />
+      <created>1711230525136</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711230525138</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added some features for database">
+      <option name="closed" value="true" />
+      <created>1712592632320</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712592632321</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added CRUD-service and ProductController">
+      <option name="closed" value="true" />
+      <created>1712614471472</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712614471473</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add post-requests form, fixed controllers, updated CRUD-service">
+      <option name="closed" value="true" />
+      <created>1712696429954</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712696429955</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update product-entity and design form">
+      <option name="closed" value="true" />
+      <created>1712749956286</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712749956286</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Changed controller hierarchy + downloading data from database">
+      <option name="closed" value="true" />
+      <created>1712765570025</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712765570026</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Designed cards for menu amd redesigned admin-page">
+      <option name="closed" value="true" />
+      <created>1713052486576</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713052486577</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added own controller for each page and delete-form">
+      <option name="closed" value="true" />
+      <created>1713107880097</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713107880097</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updated get-mapping for admin-page">
+      <option name="closed" value="true" />
+      <created>1713123315933</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713123315934</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added some security features">
+      <option name="closed" value="true" />
+      <created>1713215229026</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713215229027</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update Spring to 3.2.4 version and add security-system for web-application">
+      <option name="closed" value="true" />
+      <created>1713350447492</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713350447492</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add search-feature to menu-page">
+      <option name="closed" value="true" />
+      <created>1714304854536</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714304854537</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add filter-feature to menu-page">
+      <option name="closed" value="true" />
+      <created>1714311155763</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1714311155764</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add footer to some pages">
+      <option name="closed" value="true" />
+      <created>1714377775419</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1714377775419</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add order-feature">
+      <option name="closed" value="true" />
+      <created>1714751124240</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1714751124240</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Added 1 part of home page + controller for menu" />
+    <MESSAGE value="Added some features for database" />
+    <MESSAGE value="Added CRUD-service and ProductController" />
+    <MESSAGE value="Add post-requests form, fixed controllers, updated CRUD-service" />
+    <MESSAGE value="Update product-entity and design form" />
+    <MESSAGE value="Changed controller hierarchy + downloading data from database" />
+    <MESSAGE value="Designed cards for menu amd redesigned admin-page" />
+    <MESSAGE value="Added own controller for each page and delete-form" />
+    <MESSAGE value="Updated get-mapping for admin-page" />
+    <MESSAGE value="Added some security features" />
+    <MESSAGE value="Update Spring to 3.2.4 version and add security-system for web-application" />
+    <MESSAGE value="Add search-feature to menu-page" />
+    <MESSAGE value="Add filter-feature to menu-page" />
+    <MESSAGE value="Add footer to some pages" />
+    <MESSAGE value="Add order-feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add order-feature" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MorningBuzzCafe$Tests_in__MorningBuzzCafe_.ic" NAME="Tests in 'MorningBuzzCafe' Coverage Results" MODIFIED="1714752795266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
